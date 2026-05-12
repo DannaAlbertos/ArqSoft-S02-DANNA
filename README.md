@@ -13,3 +13,6 @@ Identificación de violaciones SOLID
 | Para agregar un segundo juego habría que modificar Juego directamente | OCP - Open/Closed Principle
 
 <img width="601" height="487" alt="Captura de pantalla 2026-05-12 132736" src="https://github.com/user-attachments/assets/2868895f-3baa-4003-a73b-1f44f885103d" />
+
+<img width="574" height="445" alt="Captura de pantalla 2026-05-12 133019" src="https://github.com/user-attachments/assets/55288161-abdf-43cd-ada8-72741ddf022a" />
+
