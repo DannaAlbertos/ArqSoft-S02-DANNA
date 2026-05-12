@@ -11,3 +11,5 @@ Identificación de violaciones SOLID
 | La clase Juego controla turnos, dibuja el tablero, muestra mensajes y elige la palabra | SRP - Single Responsability Principle
 | Las palabras están hardcodeadas dentro del constructor | DIP - Dependency Inversion Principle
 | Para agregar un segundo juego habría que modificar Juego directamente | OCP - Open/Closed Principle
+
+<img width="601" height="487" alt="Captura de pantalla 2026-05-12 132736" src="https://github.com/user-attachments/assets/2868895f-3baa-4003-a73b-1f44f885103d" />
