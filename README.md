@@ -1,6 +1,9 @@
 # Ahorcado 
 Un juego sencillo escrito en C#
 
+Este juego fue desarrollado utilizando lenguaje C# y está basado en los principios SOLID para mantener una buena práctica inicial de Arquitectura en nuestro sistema.
+Hice uso de la IA para poder arreglar el código con un error que tuvo.
+
 Identificación de violaciones SOLID
 
 | Situación | Principio violado |
