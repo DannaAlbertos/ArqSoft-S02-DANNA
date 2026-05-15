@@ -1,6 +1,17 @@
-﻿var repositorio = new Ahorcado.PalabrasEnMemoria();
-var motor = new Ahorcado.MotorAhorcado(repositorio);
-var ui = new Ahorcado.ConsolaUI(motor);
+﻿using Ahorcado;
+
+var repositorio = new PalabrasEnMemoria();
+var categorias = repositorio.ObtenerCategorias();
+
+var motorTemporal = new MotorAhorcado(repositorio);
+var uiTemporal = new ConsolaUI(motorTemporal);
+string categoria = uiTemporal.PedirCategoria(categorias);
+
+repositorio.EstablecerCategoria(categoria);
+
+var motor = new MotorAhorcado(repositorio);
+var ui = new ConsolaUI(motor);
+
 Console.WriteLine("=== AHORCADO ===");
 while (!motor.Ganado() && !motor.Perdido())
 {

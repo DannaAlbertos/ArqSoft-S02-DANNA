@@ -7,6 +7,19 @@
         {
             _motor = motor;
         }
+
+        public string PedirCategoria(List<string> categorias)
+        {
+            Console.WriteLine("Selecciona una categoría:");
+            for (int i = 0; i < categorias.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {categorias[i]}");
+            }
+            Console.Write("Ingresa el número: ");
+            int opcion = int.Parse(Console.ReadLine());
+            return categorias[opcion - 1];
+        }
+
         public void MostrarTablero()
         {
             Console.Clear();
